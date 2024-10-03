@@ -5,8 +5,8 @@ let contador = 0
 
 //criando loop
 while(continuar){
-let nome = [prompt("Digite o nome do " + (contador + 1) + "° aluno")]
-let nota = [parseInt(prompt("Digite a nota do aluno: "))]
+let nome = prompt("Digite o nome do " + (contador + 1) + "° aluno")
+let nota = parseInt(prompt("Digite a nota do aluno: "))
 arrayAlunos[contador] = nome
 arrayNotas[contador] = nota
 contador++
