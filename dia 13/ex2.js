@@ -8,7 +8,7 @@ class Carro {
             this.Potencia = potencia
             this.VelocidadeMaxima = velocidadeMaxima
             this.Aceleracao = aceleracao
-        }
+        }   
        CalcularTempoMedio(distancia){
         let resultado = distancia / (this.VelocidadeMaxima / this.Aceleracao)
         return resultado
